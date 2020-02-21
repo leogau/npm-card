@@ -1,5 +1,5 @@
 {
-  "name": "npm-card",
+  "name": "leogau",
   "version": "1.0.0",
   "description": "An info card for Leo Gau (@leogau)",
   "main": "./bin/card.js",
