@@ -15,15 +15,15 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white("               Leo Gau"),
-  handle: chalk.white("leogau"),
+  name: chalk.white("              Leo Gau"),
+  handle: chalk.white("@leogau"),
   work: chalk.white("Senior Software Engineer"),
   twitter: chalk.gray("https://twitter.com/") + chalk.cyan("leogau"),
   npm: chalk.gray("https://npmjs.com/") + chalk.red("~leogau"),
   github: chalk.gray("https://github.com/") + chalk.green("leogau"),
   linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("leogau"),
-  web: chalk.cyan("https://leogau.dev"),
-  npx: chalk.red("npx") + " " + chalk.white("leogau"),
+  web: chalk.green("https://leogau.dev"),
+  npx: chalk.green("npx") + " " + chalk.green("leogau"),
   labelWork: chalk.white.bold("       Work:"),
   labelTwitter: chalk.white.bold("    Twitter:"),
   labelnpm: chalk.white.bold("        npm:"),
@@ -51,8 +51,6 @@ const output =
   newline + // Add one whole blank line
   webing +
   newline +
-  working +
-  newline + // data.labelWork + data.work
   newline +
   twittering +
   newline + // data.labelTwitter + data.twitter
